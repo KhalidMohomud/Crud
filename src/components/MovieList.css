@@ -1,0 +1,71 @@
+/* Movie List Container */
+.movie-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Movie Card Styling */
+  .movie-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for movie card */
+  .movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Movie Title */
+  .movie-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Movie Tell */
+  .movie-tell {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+  
+  /* Movie Image */
+  .movie-image-container {
+    margin-bottom: 15px;
+  }
+  
+  .movie-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* Delete Button */
+  .delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  

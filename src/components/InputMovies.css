@@ -1,0 +1,75 @@
+/* Form Container */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  /* Form Styling */
+  .movie-form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .movie-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .movie-form input:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Input Field for Text and Number */
+  .input-field {
+    background-color: #f4f4f4;
+    transition: all 0.3s ease;
+  }
+  
+  /* File Input Styling */
+  .file-input {
+    margin-bottom: 20px;
+  }
+  
+  /* Image Preview */
+  .image-preview-container {
+    margin-bottom: 15px;
+  }
+  
+  .image-preview {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #2980b9;
+  }
+  
